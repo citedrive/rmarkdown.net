@@ -26,12 +26,12 @@ module.exports = {
       },
       items: [
 
-
+/*
         {
           href: '/overleaf-citedrive',
           label: 'Overleaf',
           position: 'right',
-        },
+        },*/
         //{to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/citedrive/bibtex.eu',
