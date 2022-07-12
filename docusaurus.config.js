@@ -8,7 +8,7 @@ module.exports = {
   url: 'https://rmarkdown.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  trailingSlash: false,
+  trailingSlash: true,
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'citedrive', // Usually your GitHub org/user name.
