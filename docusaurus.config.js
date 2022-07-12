@@ -34,7 +34,7 @@ module.exports = {
         },*/
         //{to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/citedrive/bibtex.eu',
+          href: 'https://github.com/citedrive/rmarkdown.net',
           label: 'GitHub',
           position: 'right',
         },
@@ -122,7 +122,7 @@ module.exports = {
           ],
         },*/
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} BibTeX.eu - Open source docs - Sponsored by CiteDrive LLC.`,
+      copyright: `Copyright © ${new Date().getFullYear()} rmarkdown.net - Open source docs - Sponsored by CiteDrive LLC.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -138,13 +138,13 @@ module.exports = {
            routeBasePath: '/',
           // Please change this to your repo.
           editUrl:
-            'https://github.com/citedrive/bibtex.eu/blob/main/',
+            'https://github.com/citedrive/rmarkdown.net/blob/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/citedrive/bibtex.eu/blog',
+            'https://github.com/citedrive/rmarkdown.net/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
