@@ -20,7 +20,7 @@ install.packages("rmarkdown")
 Next, open RStudio and create a new file. Select "File" > "New File" > "R Markdown". This will open a template R Markdown file for you -  files in R Markdown have the extension ".Rmd",
 
 
-```md
+````md
 ---
 title: "Untitled"
 author: "Author"
@@ -53,10 +53,10 @@ plot(pressure)
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 
-```
+````
 
 
 
 
 
-The first part of this file in the YAML header specifies the document's title, author, and date.
+The first part of this file in the *YAML* header specifies the document's `title`, `author`, and `date`.
