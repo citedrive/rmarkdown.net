@@ -15,9 +15,9 @@ R Markdown comes along with RStudio. If you do decide to use a different IDE, yo
 install.packages("rmarkdown")
 ```
 
-## Getting start
+## Create an R Markdown file
 
-Next, open RStudio and create a new file. Select "File" > "New File" > "R Markdown". This will open a template R Markdown file for you -  files in R Markdown have the extension ".Rmd",
+Next, open RStudio (*or use the template below for another text editor*) and create a new file. Select "File" > "New file" > "R Markdown". This will open an R Markdown template for you - files in R Markdown have the extension `.Rmd`.
 
 
 ````md
@@ -56,7 +56,28 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 ````
 
 
+## The YAML Header
 
 
+The first part of this file in the *YAML* header specifies the document's `title`, `author`, and `date` by default and is eclosed by `---`.
 
-The first part of this file in the *YAML* header specifies the document's `title`, `author`, and `date`.
+````md
+---
+title: "Untitled"
+author: "Author"
+date: '2022-07-20'
+output: html_document
+---
+````
+
+In the YAML header, you can also define the path of a bibliographic file, such as a CSL or BibTeX (.bib) file, the citation style, output options, tables of contents, LaTeX packages, functions to formating options and much more.
+
+
+## Code chunks in R
+
+## Markdown
+
+## Bibliography management
+
+
+## Using {rticles}
