@@ -44,84 +44,95 @@ module.exports = {
       style: 'dark',
 
       links: [
-        {
-          title: 'CiteDrive',
-          items: [
-            {
-              label: 'CiteDrive - Home',
-              to: 'https://citedrive.com',
-            },
-            {
-              label: 'CiteDrive - App',
-              to: 'https://app.citedrive.com/',
-            },
-            {
-              label: 'CiteDrive - Forum',
-              to: 'http://forum.citedrive.com/',
-            },
-          ],
-        },
 
-        {
-          title: 'R Markdown',
-          items: [
-            //{
-            //  label: 'BibTeX - Fields',
-            //  to: '/fields',
-            //},
-            // {
-            //   label: 'BibTeX - Types',
-            //   to: '/types',
-            // },
-          ],
-        },
+      {
+        title: 'CiteDrive',
+        items: [
+          {
+            label: 'CiteDrive',
+            to: 'https://citedrive.com/',
+          },
+          {
+            label: 'Login (App)',
+            to: 'https://app.citedrive.com/',
+          },
+          {
+            label: 'Blog',
+            to: 'https://www.citedrive.com/blog',
+          },
+          {
+            label: 'Docs',
+            to: 'https://www.citedrive.com/docs/quick-startg',
+          },
+          {
+            label: 'Overleaf integration',
+            to: 'https://www.citedrive.com/overleaf',
+          },
+        ],
+      },
+      {
+        title: 'CiteDrive Community',
+        items: [
 
+          {
+            label: 'Twitter',
+            to: 'https://twitter.com/citedrive',
+          },
+          {
+            label: 'Facebook',
+            to: 'https://www.facebook.com/citedrive',
+          },
+          {
+            label: 'LinkedIn',
+            to: 'https://www.linkedin.com/company/citedrive',
+          },
+          {
+            label: 'YouTube',
+            to: 'https://www.youtube.com/channel/UC3ouAJ9bMVs4wti5cRUd9ag',
+          },
+        ],
+      },
+      {
+        title: 'bibtex.eu',
+        items: [
+          {
+            label: 'BibTeX',
+            href: 'http://bibtex.eu/',
+          },
+          {
+            label: 'Twitter',
+            href: 'https://twitter.com/bibtex_eu',
+          },
+        ],
+      },
 
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Twitter',
-              to: 'https://twitter.com/citedrive',
-            },
-            {
-              label: 'Facebook',
-              to: 'https://www.facebook.com/citedrive',
-            },
-            {
-              label: 'LinkedIn',
-              to: 'https://www.linkedin.com/company/citedrive',
-            },
-            {
-              label: 'YouTube',
-              to: 'https://www.youtube.com/channel/UC3ouAJ9bMVs4wti5cRUd9ag',
-            },
-          ],
-        },
-            /*
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Facebook',
-              href: '#',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/citedrive/bibtex.eu',
-            },
-          ],
-        },*/
-      ],
+      {
+        title: 'rmarkdown.net',
+        items: [
+          {
+            label: 'R Markdown',
+            href: 'http://rmarkdown.net/',
+          },
+          {
+            label: 'Twitter',
+            href: 'https://twitter.com/rmarkdown',
+          },
+        ],
+      },
+      {
+        title: 'More',
+        items: [
+          {
+            label: 'Blog',
+            to: '/blog',
+          },
+          {
+            label: 'GitHub',
+            href: 'https://github.com/citedrive/bibtex.eu',
+          },
+        ],
+      },
+    ],
       copyright: `Copyright © ${new Date().getFullYear()} rmarkdown.net - Open source docs - Sponsored by CiteDrive LLC.`,
     },
     prism: {
