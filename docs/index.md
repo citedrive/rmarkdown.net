@@ -59,7 +59,7 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 ## The YAML Header
 
 
-The first part of this file in the *YAML* header specifies the document's `title`, `author`, and `date` by default and is eclosed by `---`.
+The first part of this file in the *YAML* header specifies the document's `title`, `author`, and `date` by default and is enclosed by `---`.
 
 ````md
 ---
@@ -70,14 +70,67 @@ output: html_document
 ---
 ````
 
-In the YAML header, you can also define the path of a bibliographic file, such as a CSL or BibTeX (.bib) file, the citation style, output options, tables of contents, LaTeX packages, functions to formating options and much more.
+In the YAML header, you can also define the path of a bibliographic file, such as a CSL or BibTeX (*.bib*) file, the citation style, output options, tables of contents, LaTeX packages, functions to formatting options and much more.
 
 
 ## Code chunks in R
+Code chunks can be used to generate dynamic output to run code and display the results. The results can be displayed in the console or directly in the document.
+
+
+
+Below is an example of a code chunk:
+
+
+````md
+``` {r}
+x <- 5
+y <- 10
+z <- x + y
+z
+
+```
+````
+
+```md
+    ## 15
+```
+
+
+Notice that the R code is closed between ```` `` {r}```` and  ```` ``` ````, while the `r` defines the programming language. You can feed options via *knitr* in the code chunk, such as `echo = FALSE`, which only outputs the results of the code in the finished file, not the code itself.
 
 ## Markdown
 
-## Bibliography management
+Markdown is a simplified markup language that makes it easy to format your text for an easily readable output. Some examples of the types of markup are:
+
+### Headings
+
+`#` indicates the hierarchical depth of the headings, and when converting, they are displayed/nested accordingly in a logical document structure.
+
+```md
+# Heading one
+
+## Heading two
+
+## Heading three
+```
+
+### bold italic
+
+The text can be formatted with simple tags, such as surrounding a string with two `**` marks it bold, with a `*` as italic - for example `**bold**` and `*italic*`.
+
+### bullet points
+
+You can also enumerate with `* some point.
 
 
-## Using {rticles}
+```md
+* Point 1
+* point 2
+* Point 3
+```
+
+Will output to
+
+* Point 1
+* point 2
+* Point 3
